@@ -5,7 +5,7 @@ namespace Polygons.Library
     public class Triangle : AbstractRegularPolygon
     {
         //constructor
-        public Triangle(int length) : base(3, length) { }
+        public Triangle(double length) : base(3, length) { }
 
         public override double GetArea()
         {
