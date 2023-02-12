@@ -9,9 +9,9 @@ namespace Polygons.Library
     public class Octagon : IRegularPolygon
     {
         public int NumberOfSides { get; set; }
-        public int SideLength { get; set; }
+        public double SideLength { get; set; }
 
-        public Octagon(int length)
+        public Octagon(double length)
         {
             NumberOfSides = 8;
             SideLength = length;
