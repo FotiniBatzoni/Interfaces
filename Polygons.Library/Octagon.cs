@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polygons.Library
 {
-    internal class Octagon : IRegularPolygon
+    public class Octagon : IRegularPolygon
     {
         public int NumberOfSides { get; set; }
         public int SideLength { get; set; }

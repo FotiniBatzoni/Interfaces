@@ -7,6 +7,9 @@ DisplayPolygon("Square", square);
 var triangle = new Triangle(5);
 DisplayPolygon("Triangle", triangle);
 
+var octagon = new Octagon(8);
+DisplayPolygon("Octagon", octagon);
+
 
 
 static void DisplayPolygon(string polygonType, dynamic polygon)
