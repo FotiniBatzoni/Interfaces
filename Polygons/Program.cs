@@ -4,8 +4,12 @@ using System;
 var square = new Square(5);
 DisplayPolygon("Square", square);
 
+var triangle = new Triangle(5);
+DisplayPolygon("Triangle", triangle);
 
- static void DisplayPolygon(string polygonType, dynamic polygon)
+
+
+static void DisplayPolygon(string polygonType, dynamic polygon)
 {
     try
     {
