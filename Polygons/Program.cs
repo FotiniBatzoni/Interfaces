@@ -2,7 +2,7 @@
 using System;
 
 var square = new Square(5);
-//DisplayPolygon("Square", square);
+DisplayPolygon("Square", square);
 
 
  static void DisplayPolygon(string polygonType, dynamic polygon)
