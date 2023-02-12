@@ -57,5 +57,18 @@ namespace Polygons.Library.Test
             Assert.Equal(expected, actual);
         }
 
+        public void ConcreteRegularPolygonSideis5LengthIs1000()
+        {
+            //Arrange
+            var polygon = new ConcreteRegularPolygon(5, 1000);
+            var expected = 1000000;
+
+            //Act
+            var actual = polygon.GetPerimeter();
+
+            //Assert
+            Assert.Equal(expected, actual);
+        }
+
     }
 }

@@ -9,9 +9,9 @@ namespace Polygons.Library
     public abstract class AbstractRegularPolygon
     {
         public int NumberOfSides { get; set; }
-        public int SideLength { get; set; }
+        public double SideLength { get; set; }
 
-        public AbstractRegularPolygon(int sides, int length)
+        public AbstractRegularPolygon(int sides, double length)
         {
             NumberOfSides = sides;
             SideLength = length;    
