@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygons", "Polygons\Polygo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygons.Library", "Polygons.Library\Polygons.Library.csproj", "{20D45ADB-FC07-4F40-AB73-B9A6482B9C11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polygons.Library.Test", "Polygons.Library.Test\Polygons.Library.Test.csproj", "{261E4427-ABE4-4102-BF79-BBDFE8A5E017}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{20D45ADB-FC07-4F40-AB73-B9A6482B9C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20D45ADB-FC07-4F40-AB73-B9A6482B9C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20D45ADB-FC07-4F40-AB73-B9A6482B9C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261E4427-ABE4-4102-BF79-BBDFE8A5E017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261E4427-ABE4-4102-BF79-BBDFE8A5E017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261E4427-ABE4-4102-BF79-BBDFE8A5E017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261E4427-ABE4-4102-BF79-BBDFE8A5E017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
